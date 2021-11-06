@@ -1,0 +1,191 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+/* RESEt */
+
+*,*::after,*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    margin: 5rem auto 15rem;
+    width: 90%;
+    max-width: 318.91px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 2rem;
+    box-shadow: 1rem 2rem 1rem hsl(224, 23%, 55%);
+    padding-bottom: 3rem;
+    transform: translateY(40px);
+
+   
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+span {
+    display: inline-block;
+}
+
+a {
+    display: inline-block;
+}
+
+.illustration {
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+/* text */
+
+.text__summary {
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.text__summary__order {
+    font-size: 2rem;
+    color: rgb(31, 47, 86); 
+    margin-top: 2rem;
+    font-weight: 900;
+}
+
+.text__paragraph {
+    font-size: 1.5rem;
+    line-height: 2.5rem;  
+    color: rgba(31, 47, 86, 0.85);
+    font-weight: 400;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+
+
+/* music */
+
+.music {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+    max-width: 320px;
+    margin-bottom: 3rem;
+    background-color: rgba(114, 128, 167, 0.1);
+    border-radius: 1rem;
+
+}
+
+
+.plan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: 1.3rem;
+}
+
+.annual__plan {
+    font-size: 1.5rem;
+}
+
+
+.sub__plan {
+    font-size: 1.5rem;
+    color: hsl(224, 23%, 55%);
+    margin-top: .5rem;
+}
+
+
+.change:hover, .change:active {
+    text-decoration: none;
+    color: rgba(56, 41, 224, 0.5);
+}
+
+
+/* button */
+
+.btn-link {
+    text-decoration: none;
+    background-color: hsl(245, 75%, 52%);
+    padding: 1.5rem  7rem;
+    color: #fff;
+    border-radius: 1rem;
+    max-width: 320px;
+    margin-bottom: 3.5rem;
+
+    box-shadow: 1rem 2rem 1rem hsl(225, 100%, 94%);
+}
+
+.btn-link:hover, .btn-link:active{
+    background-color: rgba(56, 41, 224, 0.5);
+}
+
+.order-link:hover, .order-link:active {
+  color: rgba(0, 0, 0, 0.8);  
+}
+
+.order-link {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;   
+}
+
+
+/* Media Queries */
+@media only screen and (max-width: 1000px) {
+    body {
+
+        background-image: url(../images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    body {
+
+        background-image: url(../images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .text, .btn {
+        margin: 0 15px;
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        font-size: 1.2rem;
+    }
+
+    main {
+        margin-top: 5%;
+    }
+
+    
+}
+.attribution { 
+    font-size: 2rem;
+     text-align: center; 
+     margin-bottom: 1.2rem;
+    }
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+ }
