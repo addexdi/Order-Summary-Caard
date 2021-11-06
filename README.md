@@ -33,9 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
+- Solution URL: [https://github.com/yusfate4/Order-Summary-Caard.git]
+- Live Site URL: [https://yusfate4.github.io/Order-Summary-Caard/]
 ## My process
 
 ### Built with
